@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class strings {
+    public static void main(String[]args){
+
+        Scanner sc = new Scanner(System.in); // here we take
+        String sr = sc.nextLine();
+        System.out.println(sr);
+    }
+
+
+}

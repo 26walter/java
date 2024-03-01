@@ -1,0 +1,11 @@
+
+import java.util.Scanner;
+public class Strings {
+    public static void main(String[] args){
+        Scanner sr = new Scanner(System.in); //here we take input from the user
+        int a = sr.nextInt(); //here the user want to give Integer as an input .
+
+        System.out.printf("The value of a is : %d",a); // here we have used printf instead of println because we have to give the user output.
+
+    }
+}

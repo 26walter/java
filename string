@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class strings {
     public static void main(String[]args){
 
-        Scanner sc = new Scanner(System.in); // here we take
-        String sr = sc.nextLine();
+        Scanner sc = new Scanner(System.in); // here we take input from the user.
+        String sr = sc.nextLine(); //instead of next we have used nextLine coz it prints the whole line.
         System.out.println(sr);
     }
 
